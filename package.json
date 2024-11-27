@@ -1,7 +1,22 @@
 {
+  "name": "atviii-atlantis",
+  "version": "1.0.0",
+  "description": "Sistema Atlantis para gestão de clientes e hospedagens",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn src/ts/app/app.ts",
+    "build": "tsc"
+  },
   "dependencies": {
-    "@types/node": "^18.0.0",
+    "@types/node": "^18.17.1",
     "@types/prompt-sync": "^4.1.1",
+    "atviii-atlantis": "file:",
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "author": "Diogo Palharini",
+  "license": "ISC"
 }
